@@ -1,0 +1,90 @@
+/* Base styles for the message container */
+.message-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Center align the message header */
+.message-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Padding for the message content */
+.message-content {
+  padding: 20px;
+}
+
+/* Margin bottom for sender and date */
+.message-sender,
+.message-date {
+  margin-bottom: 10px;
+}
+
+/* Line height for message body */
+.message-body {
+  line-height: 1.6;
+}
+
+/* Margin bottom for paragraphs in message body */
+.message-body p {
+  margin-bottom: 10px;
+}
+
+/* Bold styling for strong elements in message body */
+.message-body strong {
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .message-container {
+    padding: 15px;
+  }
+
+  .message-header {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .message-content {
+    padding: 15px;
+  }
+
+  .message-body {
+    font-size: 14px;
+  }
+
+  .message-body p {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .message-container {
+    padding: 10px;
+  }
+
+  .message-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .message-content {
+    padding: 10px;
+  }
+
+  .message-body {
+    font-size: 13px;
+  }
+
+  .message-body p {
+    margin-bottom: 6px;
+  }
+}

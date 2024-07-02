@@ -1,0 +1,142 @@
+/* Default styles */
+.dashboard1 {
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+.Mainobject {
+    border: 0.5px solid gray;
+    width: 55%;
+    border-radius: 12px;
+    height: 100%;
+    margin-left: 330px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.mainobject3 {
+    margin-left: 450px;
+    margin-top: -30px;
+}
+
+.mainobject2 {
+    margin-left: 170px;
+    margin-top: -30px;
+}
+
+.mainobject4 {
+    margin-top: 100px;
+    margin-left: 230px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.dashboard4 {
+    margin-top: 30px;
+    margin-left: 280px;
+    text-align: center;
+}
+
+/* Styles for screens 1200px and smaller */
+@media (max-width: 1200px) {
+    .dashboard1 {
+        margin-left: 200px;
+    }
+    .Mainobject {
+        margin-left: 200px;
+    }
+    .mainobject3 {
+        margin-left: 300px;
+    }
+    .mainobject2 {
+        margin-left: 100px;
+    }
+    .mainobject4 {
+        margin-left: 150px;
+    }
+    .dashboard4 {
+        margin-left: 180px;
+    }
+}
+
+/* Styles for screens 768px and smaller */
+@media (max-width: 768px) {
+    .dashboard1 {
+        margin-left: 100px;
+    }
+    .Mainobject {
+        width: 70%;
+        margin-left: 100px;
+    }
+    .mainobject3 {
+        margin-left: 150px;
+    }
+    .mainobject2 {
+        margin-left: 50px;
+    }
+    .mainobject4 {
+        margin-left: 80px;
+    }
+    .dashboard4 {
+        margin-left: 90px;
+    }
+}
+
+/* Styles for screens 450px and smaller */
+@media (max-width: 450px) {
+    .dashboard1 {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .Mainobject {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .mainobject3 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .mainobject2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .mainobject4 {
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: large;
+    }
+    .dashboard4 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+/* Styles for screens 320px and smaller */
+@media (max-width: 320px) {
+    .dashboard1 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .Mainobject {
+        width: 95%;
+        margin-left: 10px;
+    }
+    .mainobject3 {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .mainobject2 {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .mainobject4 {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: medium;
+    }
+    .dashboard4 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

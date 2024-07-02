@@ -1,0 +1,174 @@
+.coursefull {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.HR {
+    margin-left: 160px;
+}
+
+.coursefull2 {
+    margin-left: 170px;
+}
+
+.coursefull3 {
+    margin-left: 330px;
+    margin-top: -30px;
+}
+
+.coursefull4 {
+    margin-left: 570px;
+    margin-top: -30px;
+}
+
+.coursefull5 {
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+.coursefull6 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.coursefull7 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+    .coursefull {
+        margin-left: 80px;
+        padding: 15px;
+    }
+    .HR {
+        margin-left: 120px;
+    }
+    .coursefull2 {
+        margin-left: 130px;
+    }
+    .coursefull3 {
+        margin-left: 250px;
+        margin-top: -20px;
+    }
+    .coursefull4 {
+        margin-left: 450px;
+        margin-top: -20px;
+    }
+    .coursefull5 {
+        margin-left: 650px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .coursefull {
+        margin-left: 60px;
+        padding: 10px;
+    }
+    .HR {
+        margin-left: 100px;
+    }
+    .coursefull2 {
+        margin-left: 110px;
+    }
+    .coursefull3 {
+        margin-left: 200px;
+        margin-top: -15px;
+    }
+    .coursefull4 {
+        margin-left: 400px;
+        margin-top: -15px;
+    }
+    .coursefull5 {
+        margin-left: 600px;
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .coursefull {
+        margin-left: 40px;
+        padding: 8px;
+    }
+    .HR {
+        margin-left: 70px;
+    }
+    .coursefull2 {
+        margin-left: 80px;
+    }
+    .coursefull3 {
+        margin-left: 150px;
+        margin-top: -10px;
+    }
+    .coursefull4 {
+        margin-left: 300px;
+        margin-top: -10px;
+    }
+    .coursefull5 {
+        margin-left: 500px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .coursefull {
+        margin-left: 20px;
+        padding: 5px;
+    }
+    .HR {
+        margin-left: 30px;
+    }
+    .coursefull2 {
+        margin-left: 40px;
+    }
+    .coursefull3,
+    .coursefull4,
+    .coursefull5 {
+        margin-left: 100px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .coursefull {
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .HR {
+        margin-left: 20px;
+    }
+    .coursefull2 {
+        margin-left: 30px;
+    }
+    .coursefull3,
+    .coursefull4,
+    .coursefull5 {
+        margin-left: 60px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .coursefull {
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .HR {
+        margin-left: 10px;
+    }
+    .coursefull2 {
+        margin-left: 20px;
+    }
+    .coursefull3,
+    .coursefull4,
+    .coursefull5 {
+        margin-left: 40px;
+        margin-top: 0;
+    }
+}

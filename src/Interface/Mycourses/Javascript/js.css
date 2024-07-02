@@ -1,0 +1,115 @@
+/* Reset default margin and padding, set font-family */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center align heading and apply specific font */
+.js h1 {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Common styling for loading message */
+.loading {
+  text-align: center;
+  padding: 15px;
+  max-width: 100%;
+}
+
+/* Table styles for courses */
+.courseTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courseTable th,
+.courseTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.courseTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Table styles for modules */
+.moduleTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.moduleTable th,
+.moduleTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.moduleTable th {
+  background-color: #f9f9f9;
+  font-weight: normal;
+}
+
+/* List styles for elements */
+.elementsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.elementsList li {
+  margin-bottom: 5px;
+}
+
+.elementsList li strong {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .loading {
+    padding: 10px;
+  }
+
+  .courseTable th,
+  .courseTable td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .moduleTable th,
+  .moduleTable td {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .elementsList li strong {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .courseTable th,
+  .courseTable td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .moduleTable th,
+  .moduleTable td {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .elementsList li strong {
+    font-size: 12px;
+  }
+}

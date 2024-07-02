@@ -1,0 +1,160 @@
+/* Default styles */
+.header1 {
+    display: flex;
+    padding: 10px;
+}
+
+.header1_2 {
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.header1_3 {
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.header1_4 {
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.header2 {
+    display: flex;
+    margin-left: 1100px;
+    margin-top: -55px;
+    font-size: larger;
+}
+
+.header2_1 {
+    padding: 10px;
+}
+
+.header2_1 button {
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.header2_2 {
+    border: none;
+    padding: 10px;
+}
+
+.header2_2 button {
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.header2_3 {
+    padding: 10px;
+    border: none;
+}
+
+.header2_3 button {
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Styles for screens between 768px and 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .header2 {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+}
+
+/* Styles for screens between 450px and 768px */
+@media (min-width: 450px) and (max-width: 768px) {
+    .header1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header1_2, .header1_3, .header1_4 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .header2 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 20px;
+        align-items: flex-start;
+        font-size: medium;
+    }
+
+    .header2_1, .header2_2, .header2_3 {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .header2_1 button, .header2_2 button, .header2_3 button {
+        font-size: 1em;
+        width: 100%;
+    }
+}
+
+/* Styles for screens between 320px and 450px */
+@media (min-width: 320px) and (max-width: 450px) {
+    .header1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header1_2, .header1_3, .header1_4 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .header2 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 10px;
+        align-items: flex-start;
+        font-size: small;
+    }
+
+    .header2_1, .header2_2, .header2_3 {
+        padding: 3px;
+        width: 100%;
+    }
+
+    .header2_1 button, .header2_2 button, .header2_3 button {
+        font-size: 0.8em;
+        width: 100%;
+    }
+}
+
+/* Styles for screens smaller than 320px */
+@media (max-width: 320px) {
+    .header1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header1_2, .header1_3, .header1_4 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .header2 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 5px;
+        align-items: flex-start;
+        font-size: x-small;
+    }
+
+    .header2_1, .header2_2, .header2_3 {
+        padding: 2px;
+        width: 100%;
+    }
+
+    .header2_1 button, .header2_2 button, .header2_3 button {
+        font-size: 0.7em;
+        width: 100%;
+    }
+}

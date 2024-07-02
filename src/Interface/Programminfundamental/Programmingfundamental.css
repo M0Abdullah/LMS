@@ -1,0 +1,79 @@
+/* Base styles for the backend container */
+.backend {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* General styling for each course */
+.course {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a hover effect for each course */
+.course:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for course title */
+.course h2 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Change title color on hover */
+.course:hover h2 {
+  color: #007BFF;
+}
+
+/* Styling for course teacher/lead details */
+.course p {
+  margin: 10px 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Specific styling for the image */
+.course img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* Scale image on hover */
+.course:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .backend {
+    padding: 15px; /* Decrease padding for smaller screens */
+  }
+
+  .course {
+    padding: 10px;
+  }
+
+  .course h2 {
+    font-size: 1.5em; /* Decrease title font size for smaller screens */
+  }
+
+  .course img {
+    max-width: 150px; /* Decrease max-width of the image for smaller screens */
+  }
+}

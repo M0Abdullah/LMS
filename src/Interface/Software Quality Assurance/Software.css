@@ -1,0 +1,71 @@
+/* Base styles for the backend container */
+.backend {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* General styling for each course */
+.course {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a hover effect for each course */
+.course:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for course title */
+.course h2 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Change title color on hover */
+.course:hover h2 {
+  color: #007BFF;
+}
+
+/* Styling for course description and details */
+.course p {
+  margin: 10px 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Additional paragraph styling */
+p {
+  margin-left: 200px; /* Adjusted for specific styling */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .backend {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .course {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .course h2 {
+    font-size: 1.5em; /* Adjust title font size for smaller screens */
+  }
+
+  p {
+    margin-left: 0; /* Reset margin for paragraphs on smaller screens */
+    font-size: 1em; /* Adjust font size for paragraphs on smaller screens */
+  }
+}

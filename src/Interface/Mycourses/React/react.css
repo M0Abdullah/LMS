@@ -1,0 +1,73 @@
+/* Center align heading and apply specific font */
+h1 {
+  text-align: center;
+  margin: 10px; /* Changed from 10x to 10px */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Common styling for loading message */
+.loading {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Table styles for courses */
+.courseTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courseTable th,
+.courseTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.courseTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.courseTable td {
+  text-align: left;
+}
+
+/* List styles for elements */
+.elements {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.elements li {
+  margin-bottom: 5px;
+}
+
+.elements li strong {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .courseTable th,
+  .courseTable td {
+    padding: 8px; /* Reduced padding for smaller screens */
+  }
+
+  .elements li strong {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .courseTable th,
+  .courseTable td {
+    padding: 6px; /* Further reduced padding for smallest screens */
+  }
+
+  .elements li strong {
+    font-size: 12px; /* Adjusted font size for smallest screens */
+  }
+}

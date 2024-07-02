@@ -1,0 +1,124 @@
+/* Frontend Data Container Styles */
+.frontend-container {
+  padding: 20px;
+  font-family: 'Roboto', Arial, sans-serif; /* Updated font */
+  background-color: #f9f9f9; /* Slightly lighter grey background */
+  min-height: 100vh;
+  color: #333;
+}
+
+.frontend-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px; /* Slightly larger font size */
+  color: #4CAF50;
+  font-weight: 700;
+}
+
+/* Course Section Styles */
+.course-section {
+  margin-bottom: 20px;
+  background: #fff; /* White background for course sections */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-left: 5px solid #4CAF50; /* Left border highlight */
+}
+
+.course-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-section h2 {
+  color: #333;
+  font-size: 26px; /* Slightly larger font size */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.course-section p {
+  color: #555; /* Slightly darker color for better readability */
+  font-size: 16px;
+  line-height: 1.8; /* Increased line height for better readability */
+  margin-bottom: 15px;
+}
+
+/* Resource List Styles */
+.course-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px; /* Added some margin at the top */
+}
+
+.course-section li {
+  margin: 8px 0; /* Slightly larger margin */
+  font-size: 16px;
+}
+
+.course-section a {
+  color: #1a0dab;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 500; /* Added font weight for emphasis */
+}
+
+.course-section a:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+/* Extra Info Styles */
+.course-section p strong {
+  color: #333;
+  font-size: 14px;
+  display: block;
+  margin-top: 15px; /* Increased margin */
+  font-weight: 600; /* Added font weight for emphasis */
+}
+
+/* Adding subtle animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.course-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Adding responsive design */
+@media (max-width: 768px) {
+  .frontend-container {
+    padding: 10px;
+  }
+
+  .course-section {
+    padding: 15px;
+  }
+
+  .course-section h2 {
+    font-size: 22px;
+  }
+
+  .course-section p {
+    font-size: 14px;
+    line-height: 1.6; /* Adjusted line height for smaller screens */
+  }
+
+  .course-section li {
+    font-size: 14px;
+  }
+
+  .frontend-container h1 {
+    font-size: 28px;
+    margin-bottom: 30px; /* Reduced margin for smaller screens */
+  }
+}

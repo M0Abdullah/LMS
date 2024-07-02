@@ -1,0 +1,109 @@
+.homepage {
+    margin-right: 900px;
+    padding: 10px;
+}
+
+.mainhomepage {
+    margin-left: 200px;
+}
+
+.Homepage2 {
+    margin-top: 10px;
+}
+
+.link {
+    margin-top: 50px;
+    margin-left: 250px;
+    color: gray;
+    list-style: none;
+}
+
+.link a {
+    list-style: none;
+    color: rgb(40, 40, 219);
+}
+
+.homepage3 {
+    text-align: center;
+}
+
+.course {
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .homepage {
+        margin-right: 600px;
+    }
+
+    .link {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage {
+        margin-right: 100px;
+    }
+
+    .mainhomepage {
+        margin-left: 100px;
+    }
+
+    .link {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homepage {
+        margin-right: 50px;
+    }
+
+    .mainhomepage {
+        margin-left: 50px;
+    }
+
+    .Homepage2 {
+        margin-top: 5px;
+    }
+
+    .link {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .homepage3 {
+        font-size: 14px;
+    }
+
+    .course {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .homepage {
+        margin-right: 20px;
+        padding: 5px;
+    }
+
+    .mainhomepage {
+        margin-left: 20px;
+    }
+
+    .Homepage2 {
+        margin-top: 2px;
+    }
+
+    .link {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .homepage3,
+    .course {
+        font-size: 12px;
+    }
+}
